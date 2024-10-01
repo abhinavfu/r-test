@@ -1,4 +1,3 @@
-import env from "react-dotenv";
 import './App.css';
 
 function App() {
@@ -6,8 +5,7 @@ function App() {
     <div className="App">
       Hello Test
       <div>
-        <p>env : {env.API_KEY}</p>
-        <p>window env : {window.env.API_KEY}</p>
+        <p>env : {process.env.REACT_APP_API_KEY}</p>
       </div>
     </div>
   );
