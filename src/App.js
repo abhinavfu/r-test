@@ -1,6 +1,11 @@
 import './App.css';
 
 function App() {
+  // const [data, setdata] = useState("1");
+  function test() {
+    // console.log(data)
+  }
+
   return (
     <div className="App">
       Hello Test
