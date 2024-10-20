@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       Hello Test
       <div>
-        <p>env : {process.env.REACT_APP_API_KEY}</p>
+        <p>env data: {process.env.REACT_APP_API_KEY}</p>
       </div>
     </div>
   );
